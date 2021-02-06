@@ -1,0 +1,15 @@
+---
+- name: My First Playbook
+  hosts: webservers
+  become: true
+  tasks:
+
+  - name: Apache
+    apt:
+      name: apache2
+      state: present
+
+  - name: Uninstall Apache
+    apt:
+      name: apache2
+      state: absent
