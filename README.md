@@ -72,10 +72,15 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - installs docker.io, pip3, and the docker module.
+- increases the virtual memory (for the virtual machine we will use to run the ELK server)
+- uses sysctl module
+- downloads and launches the docker container for elk server
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![alt text][diagram]
+
+[diagram]: https://github.com/sandrasantos0507/cybersecurity-bootcamp-project1/blob/main/Diagrams/dockerps.png "docker ps"
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
