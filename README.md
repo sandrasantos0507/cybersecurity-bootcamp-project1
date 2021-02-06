@@ -42,7 +42,7 @@ The configuration details of each machine may be found below.
 | Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | Web 1    | Server         |  10.0.0.5          |   Linux               |
 | Web 2    | Server         |   10.0.0.6         |   Linux              |
-| Web 3    | Server  |            |  10.0.0.8                | Linux
+| Web 3    | Server  |            |  10.0.0.8                | Linux |
 | ELK Server     | Log Server         |   10.1.0.4         |  Linux                |
 
 ### Access Policies
